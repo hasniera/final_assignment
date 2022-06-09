@@ -50,6 +50,7 @@ st.write(prediction)
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
+st.image(image_bytes) 
 col1, col2, col3 = st.columns(3)
   with col1:
       image = Image.open('Iris_virginica_2.jpg')
