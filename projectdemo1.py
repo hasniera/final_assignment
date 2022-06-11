@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from PIL import Image
+
 from sklearn.ensemble import RandomForestClassifier
 
 st.write("""
@@ -49,6 +49,3 @@ st.write(prediction)
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
-
-image = Image.open('Iris_virginica_2.jpg')
-st.image(image, 'Iris Virginica Species')
