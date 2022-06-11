@@ -58,4 +58,5 @@ image = Image.open(‘IRIS_VERSICOLOR’)
 st.image(image, width= use_column_width=True)
 
 image = Image.open(‘iris_setosa’)
-st.image(image, width= use_column_width=True)
+st.image(image, width= use_column_width=True
+         
