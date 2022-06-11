@@ -49,3 +49,12 @@ st.write(prediction)
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
+
+image = Image.open('Iris_virginica_2.jpg')
+st.image(image, caption='Iris Virginica Species')
+
+image = Image.open('IRIS_VERSICOLOR.jpg')  
+st.image(image, caption='Iris Versicolor Species')
+
+image = Image.open('iris_setosa.jpg')
+st.image(image, caption='Iris Setosa Species')
