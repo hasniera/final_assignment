@@ -50,6 +50,13 @@ st.write(prediction)
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-image = Image.open('iris.jpeg')
-
-st.image(image, caption='https://miro.medium.com/max/1400/1*lPxifAduIyVhNEBCLZvCYg.jpeg')
+col1, col2, col3 = st.columns(3)
+  with col1:
+      image = Image.open('Iris_virginica_2.jpg')
+      st.image(image,'Iris Virginica Species')
+  with col2:
+      image = Image.open('IRIS_VERSICOLOR.jpg')
+      st.image(image,'Iris Versicolor Species')
+  with col3:
+      image = Image.open('iris_setosa.jpg')
+      st.image(image,'Iris Setosa Species')
