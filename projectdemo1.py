@@ -50,3 +50,6 @@ st.write(prediction)
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
+image = Image.open('iris.jpeg')
+
+st.image(image, caption='https://miro.medium.com/max/1400/1*lPxifAduIyVhNEBCLZvCYg.jpeg')
