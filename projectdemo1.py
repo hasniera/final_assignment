@@ -51,6 +51,4 @@ st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
 st.sidebar.image:
-
 st.sidebar.image("/home/rzwitch/Downloads/randy-streamlit.png", use_column_width=True)
-
