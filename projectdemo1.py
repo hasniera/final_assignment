@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from PIL import Image
+
 from sklearn.ensemble import RandomForestClassifier
 
 st.write("""
@@ -50,13 +50,7 @@ st.write(prediction)
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-with st.sidebar.container():
-image = Image.open(‘Iris_virginica_2’)
-st.image(image, width= use_column_width=True)
+st.sidebar.image:
 
-image = Image.open(‘IRIS_VERSICOLOR’)
-st.image(image, width= use_column_width=True)
+st.sidebar.image("/home/rzwitch/Downloads/randy-streamlit.png", use_column_width=True)
 
-image = Image.open(‘iris_setosa’)
-st.image(image, width= use_column_width=True
-         
