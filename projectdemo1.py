@@ -50,11 +50,12 @@ st.write(prediction)
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-image = Image.open('Iris_virginica_2.jpg')
-#st.image(image, caption='Iris Virginica Species')
+with st.sidebar.container():
+image = Image.open(‘Iris_virginica_2’)
+st.image(image, width= use_column_width=True)
 
-image = Image.open('IRIS_VERSICOLOR.jpg')  
-#st.image(image, caption='Iris Versicolor Species')
+image = Image.open(‘IRIS_VERSICOLOR’)
+st.image(image, width= use_column_width=True)
 
-image = Image.open('iris_setosa.jpg')
-#st.image(image, caption='Iris Setosa Species')
+image = Image.open(‘iris_setosa’)
+st.image(image, width= use_column_width=True)
